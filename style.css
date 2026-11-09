@@ -63,4 +63,8 @@ form.devis input,form.devis select,form.devis textarea{padding:11px;border:1px s
 footer{background:#000;color:#cfcfcf;padding:48px 0;font-size:14px}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px}
 footer a{text-decoration:none}
+table.prix{width:100%;border-collapse:collapse;margin:6px 0 14px;font-size:15px}
+table.prix th,table.prix td{text-align:left;vertical-align:top;padding:12px 10px 12px 0;border-bottom:1px solid var(--line)}
+table.prix th{font-weight:600;font-size:13px;border-bottom:1px solid var(--ink)}
+table.prix td:last-child{white-space:nowrap;padding-left:16px}
 @media(max-width:900px){.nav ul{display:none}.cols,.split,.steps{grid-template-columns:1fr;gap:28px}.gammes{grid-template-columns:1fr 1fr}.hero-text p{font-size:24px}section{padding:60px 0}.content .wrap{grid-template-columns:1fr}.page-head h1{font-size:28px}aside .box{position:static}}
